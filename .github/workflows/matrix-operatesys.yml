@@ -10,4 +10,4 @@ jobs:
         operatesys: [ubuntu-latest, windows-latest]
     steps:
       - name: Print OS
-        run: echo "Running on ${{ matrix.os }}"
+        run: echo "Running on ${{ matrix.operatesys }}"
